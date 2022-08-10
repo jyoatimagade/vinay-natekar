@@ -1,0 +1,121 @@
+.about {
+  .about-content {
+    .about-top-content {
+      padding: 0.5rem 0;
+      .about-left-area {
+        width: var(--width-half);
+        h2 {
+        }
+        p {
+          width: var(--width-half);
+          padding: 2rem 0;
+          span {
+            display: block;
+          }
+        }
+      }
+      .about-right-area {
+        width: var(--width-half);
+        p {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .about-bottom-content {
+      padding: 0.5rem 0;
+      flex-wrap: initial;
+      .img-left-area {
+        align-items: flex-start;
+        width: 40%;
+        .about-vinay-slider {
+          img {
+            margin-left: -15px;
+          }
+        }
+      }
+      .img-right-area {
+        width: 60%;
+
+        .event-images {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          .img-div-top {
+            margin: 1rem 0;
+            img {
+              width: 50%;
+            }
+            // &:nth-child(1) {
+            //   img {
+            //     width: 50%;
+            //   }
+            // }
+            // &:nth-child(2) {
+            //   img {
+            //     width: 50%;
+            //   }
+            // }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) {
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 912px) {
+  //about section
+  .about {
+    .about-content {
+      .about-top-content {
+        .about-left-area {
+          .main-heading {
+            font-size: 2rem;
+          }
+          p {
+            width: 65%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+  .about {
+    .about-content {
+      .about-bottom-content {
+        flex-wrap: wrap;
+        .img-left-area {
+          width: 100%;
+        }
+        .img-right-area {
+          width: 100%;
+          .event-images {
+            .img-div-top {
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

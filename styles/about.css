@@ -1,0 +1,73 @@
+.about .about-content .about-top-content {
+  padding: 0.5rem 0;
+}
+.about .about-content .about-top-content .about-left-area {
+  width: var(--width-half);
+}
+.about .about-content .about-top-content .about-left-area p {
+  width: var(--width-half);
+  padding: 2rem 0;
+}
+.about .about-content .about-top-content .about-left-area p span {
+  display: block;
+}
+.about .about-content .about-top-content .about-right-area {
+  width: var(--width-half);
+}
+.about .about-content .about-top-content .about-right-area p {
+  font-size: 1.2rem;
+}
+.about .about-content .about-bottom-content {
+  padding: 0.5rem 0;
+  flex-wrap: initial;
+}
+.about .about-content .about-bottom-content .img-left-area {
+  align-items: flex-start;
+  width: 40%;
+}
+.about .about-content .about-bottom-content .img-left-area .about-vinay-slider img {
+  margin-left: -15px;
+}
+.about .about-content .about-bottom-content .img-right-area {
+  width: 60%;
+}
+.about .about-content .about-bottom-content .img-right-area .event-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about-content .about-bottom-content .img-right-area .event-images .img-div-top {
+  margin: 1rem 0;
+}
+.about .about-content .about-bottom-content .img-right-area .event-images .img-div-top img {
+  width: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 912px) {
+  .about .about-content .about-top-content .about-left-area .main-heading {
+    font-size: 2rem;
+  }
+  .about .about-content .about-top-content .about-left-area p {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .about .about-content .about-bottom-content {
+    flex-wrap: wrap;
+  }
+  .about .about-content .about-bottom-content .img-left-area {
+    width: 100%;
+  }
+  .about .about-content .about-bottom-content .img-right-area {
+    width: 100%;
+  }
+  .about .about-content .about-bottom-content .img-right-area .event-images .img-div-top img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */

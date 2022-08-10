@@ -1,0 +1,85 @@
+/*sTart cLient sEction------------------------------------*/
+section.client {
+  padding: 4rem 0 0rem 0;
+}
+section.client .client-logo {
+  justify-content: space-between;
+}
+section.client .client-logo .client-logo-img {
+  padding: 2rem 0;
+  width: 22%;
+}
+section.client .client-logo .client-logo-img img {
+  width: 100%;
+  border: 4px solid #1eb3e4;
+  border-radius: 15px;
+  box-shadow: 11px 11px 0px #cae1e9;
+}
+
+/*eNd cLient sEction------------------------------------*/
+.video {
+  margin: 0rem 0 0 0;
+  padding: 8rem 0 2rem 0;
+}
+.video .video-content .heading-area h2 {
+  padding: 1rem 0 0 0;
+  margin-bottom: 1.5rem;
+}
+.video .video-content .video-area {
+  justify-content: space-between;
+  margin: 1rem 0 0 0;
+}
+.video .video-content .video-area .single-video {
+  position: relative;
+}
+.video .video-content .video-area .single-video .icon-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4705882353);
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+}
+.video .video-content .video-area .single-video .icon-img img {
+  width: 60px;
+}
+.video .video-content .video-area .single-video .icon-img img {
+  position: relative;
+  z-index: 1;
+}
+.video .video-content .video-area .owl-nav {
+  position: absolute;
+  top: -4.5rem;
+  right: 0rem;
+}
+.video .video-content .video-area .owl-nav button {
+  font-size: 4rem;
+  color: --dark-gray;
+}
+
+@media screen and (max-width: 780px) {
+  section.client {
+    padding: 1rem 0 0rem 0;
+  }
+  .video {
+    padding: 1rem 0 1rem 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  section.client .client-logo {
+    justify-content: center;
+  }
+  section.client .client-logo .client-logo-img {
+    padding: 2rem 1rem;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 380px) {
+  section.client .client-logo .client-logo-img {
+    padding: 2rem 1rem;
+    width: 38%;
+  }
+}/*# sourceMappingURL=video.css.map */

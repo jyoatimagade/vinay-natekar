@@ -1,0 +1,85 @@
+.testimonial {
+  /* background:#f5b121 url('/images/testimonial-bg.png') no-repeat; */
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  height: 95vh;
+}
+.testimonial .testimonial-main {
+  margin: 5rem 0;
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel {
+  background-image: url("../images/testimonial-bg.png");
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 5rem 6rem;
+  border-radius: 1.5rem;
+  align-items: center;
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel .owl-dots {
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel .owl-dots .owl-dot {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 0.5rem 1rem;
+  border: 1px solid rgb(239, 140, 124);
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel .owl-dots .owl-dot.active, .testimonial .testimonial-main .owl-carousel.client-carousel .owl-dots .owl-dot:hover {
+  background: #d72c12;
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel .testimonial-single {
+  /* background: url('/images/testimonial-text-bg.png') no-repeat; */
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  align-items: self-end;
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel .testimonial-single p {
+  position: relative;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  width: 100%;
+  justify-content: end;
+}
+.testimonial .testimonial-main .owl-carousel.client-carousel .testimonial-single h5 {
+  align-items: flex-end;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #2b2822 !important;
+}
+
+/*eND cLient pErception sEction------------------------------------*/
+@media screen and (max-width: 912px) {
+  .testimonial {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonial .testimonial-main {
+    margin: 2rem 0;
+  }
+  .testimonial .testimonial-main .owl-carousel.client-carousel {
+    padding: 1rem 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial .testimonial-main .owl-carousel.client-carousel .item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+  }
+}/*# sourceMappingURL=testimonial.css.map */
